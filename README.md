@@ -1,0 +1,1 @@
+# sizimi-Terms-of-use
