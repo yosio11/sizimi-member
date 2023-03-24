@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 *,
 *:before,
@@ -12,15 +13,15 @@
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-size: 80%;
+  font-size: 100%;
 }
 
 .btn,
 a.btn,
 button.btn {
-  font-size: 1.6rem;
-  font-weight: 700;
-  line-height: 1.5;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1;
   position: relative;
   display: inline-block;
   padding: 1rem 4rem;
@@ -42,7 +43,7 @@ button.btn {
 a.btn-flat {
   overflow: hidden;
 
-  padding: 1.5rem 6rem;
+  padding: 1rem 4rem;
 
   color: #fff;
   border-radius: 0;
@@ -58,8 +59,8 @@ a.btn-flat:before {
   top: 0;
   left: 0;
 
-  width: 150%;
-  height: 500%;
+  width: 140%;
+  height: 530%;
 
   content: "";
   -webkit-transition: all 0.5s ease-in-out;
@@ -85,11 +86,7 @@ h2 {
   text-align: center;
 }
 
-h3 {
+h1 {
   /* 水平方向の中央揃え */
   text-align: center;
-}
-
-.ch {
-  margin: 0 auto;
 }
